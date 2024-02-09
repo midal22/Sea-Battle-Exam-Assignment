@@ -65,7 +65,9 @@ int main()
         int tactic = 0;
         int menu;
         bool chec1 = false;
+        int b1 = 0, b2 = 0, b3 = 0;
         do{
+            system("Cls");
             cout << "Для продолжения ответи на три вопроса.";
         cout << "\n1 хотите воспользоватса автозаполнеием?";
         cout << "\n2 Хотите ли вы чтобы за вас играл копютер?";
@@ -74,8 +76,7 @@ int main()
             cout << "\n выберите вопрос на который хотите ответить.\n";
             cin >> menu;
         } while (menu < 0 && menu > 4);
-        int b1 = 0, b2 = 0, b3 = 0;
-
+        
         switch (menu)
         {
         case 1:
